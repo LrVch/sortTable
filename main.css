@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  text-align: left;
+}
+
+table td,
+table th {
+  padding: 10px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #999;
+}
+
+tbody tr:nth-child(2n-1) {
+  background: #f0f0f0;
+}
+
+thead {
+  border-bottom: 2px solid #999;
+}
+
+thead span {
+  cursor: pointer;
+}
